@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,61 +9,154 @@
     <link rel="stylesheet" href="style.css">
     <title>Аккордеон</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <ul class="acoordeon">
-            <li class="accordeon__item active">
-                <div class="accordeon__content">
-                    <a href="#">Основы языка и как на нём говорить правильно</a>
-                    <div class="accordeon__item_text">
-                        <p>Лексическая структура<br>
-                            Типы данных, значения и переменные<br>
-                            Выражения и операторы инструкции</p>
-                    </div>
-                </div>
-            </li>
-            <li class="accordeon__item">
-                <div class="accordeon__content">
-                    <a href="#">Функции</a>
-                    <div class="accordeon__item_text">
-                        <p>Лексическая структура<br>
-                            Типы данных, значения и переменные<br>
-                            Выражения и операторы инструкции</p>
-                    </div>
-                </div>
-            </li>
-            <li class="accordeon__item">
-                <div class="accordeon__content">
-                    <a href="#">Обработка ошибок и отладка</a>
-                    <div class="accordeon__item_text">
-                        <p>Лексическая структура<br>
-                            Типы данных, значения и переменные<br>
-                            Выражения и операторы инструкции</p>
-                    </div>
-                </div>
-            </li>
-            <li class="accordeon__item">
-                <div class="accordeon__content">
-                    <a href="#">Объекты и массивы</a>
-                    <div class="accordeon__item_text">
-                        <p>Лексическая структура<br>
-                            Типы данных, значения и переменные<br>
-                            Выражения и операторы инструкции</p>
-                    </div>
-                </div>
-            </li>
-            <li class="accordeon__item">
-                <div class="accordeon__content">
-                    <a href="#">События</a>
-                    <div class="accordeon__item_text">
-                        <p>Лексическая структура<br>
-                            Типы данных, значения и переменные<br>
-                            Выражения и операторы инструкции</p>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
+    <header class="header">
+        <div class="container">
+            <div class="logo-block">
+                Accordion JS
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="wrapper">
+                <ul class="acco-list">
+                    <li class="acco-item">
+                        <a href="#" class="acco-trigger ">
+                            <span class="acco-trigger__title">
+                                Основы языка и как на нём говорить правильно
+                            </span>
+                        </a>
+                        <div class="inner-wrapper">
+                            <ul class="inner-acco">
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Лексическая структура
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Типы данных, значения и переменные
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Выражения и операторы инструкции
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="acco-item">
+                        <a href="#" class="acco-trigger">
+                            <span class="acco-trigger__title">
+                                Функции
+                            </span>
+                        </a>
+                        <div class="inner-wrapper">
+                            <ul class="inner-acco">
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Обработка ошибок и отладка
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Типы данных, значения и переменные
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Выражения и операторы инструкции
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="acco-item">
+                        <a href="#" class="acco-trigger">
+                            <span class="acco-trigger__title">
+                                Обработка ошибок и отладка
+                            </span>
+                        </a>
+                        <div class="inner-wrapper">
+                            <ul class="inner-acco">
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Лексическая структура
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Типы данных, значения и переменные
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Выражения и операторы инструкции
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="acco-item">
+                        <a href="#" class="acco-trigger">
+                            <span class="acco-trigger__title">
+                                Объекты и массивы
+                            </span>
+                        </a>
+                        <div class="inner-wrapper">
+                            <ul class="inner-acco">
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Лексическая структура
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Типы данных, значения и переменные
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Выражения и операторы инструкции
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="acco-item">
+                        <a href="#" class="acco-trigger">
+                            <span class="acco-trigger__title">
+                                События
+                            </span>
+                        </a>
+                        <div class="inner-wrapper">
+                            <ul class="inner-acco">
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Лексическая структура
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Типы данных, значения и переменные
+                                    </div>
+                                </li>
+                                <li class="inner-acco__item">
+                                    <div class="inner-acco__text">
+                                        Выражения и операторы инструкции
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
+
 </html>
